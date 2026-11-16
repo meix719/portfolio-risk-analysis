@@ -33,7 +33,7 @@ See [full report](report.md) for tables, methods, interpretation, and limitation
    pip install -r requirements.txt
    ```
 
-3. Place an **authorized copy** of the course workbook named `Risk Analytics - Class 9 - Dataset.xlsx` alongside `unit_9_py.py`. It must include a worksheet named `Dataset` with these columns: `Month`, `Asset_1_Return` through `Asset_5_Return`, `Weight_Asset_1` through `Weight_Asset_5`, and `Risk-Free Rate (%)`.
+3. The synthetic dataset is already included in [`data/portfolio_returns.csv`](data/portfolio_returns.csv), containing 36 months of returns, weights, and risk-free rates. No separate data download is needed.
 4. Run:
 
    ```bash
@@ -44,7 +44,7 @@ The script prints results and saves `Monthly_Portfolio_Returns.png`.
 
 ## Data and limitations
 
-The underlying Excel dataset was supplied for coursework and is **not redistributed** in this public repository. Results are an educational, in-sample exercise rather than real-time market estimates or investment advice. The historical 95% VaR estimate is especially limited by the 36-month sample. The stress scenario assumes a uniform fixed shock, and the optimization does not include transaction costs or out-of-sample validation.
+The synthetic course dataset is included as a CSV under `data/` so results can be reproduced. The original Excel workbook and instructor notes are not redistributed. Results are an educational, in-sample exercise rather than real-time market estimates or investment advice. The historical 95% VaR estimate is especially limited by the 36-month sample. The stress scenario assumes a uniform fixed shock, and the optimization does not include transaction costs or out-of-sample validation.
 
 ## Tools
 
