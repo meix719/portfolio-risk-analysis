@@ -22,7 +22,7 @@ A Python-based portfolio risk analysis of five assets using 36 monthly observati
 6. Conservative vs. aggressive allocation scenarios
 7. Long-only Sharpe ratio maximization with SciPy SLSQP
 
-See [full report](report.md) for tables, methods, interpretation, and limitations.
+See the [full report](report.md) for tables, methods, interpretation, and limitations. A [downloadable Word report](Unit_9_Portfolio_Risk_Analysis.docx) is also available (formatted from the repository report; the original class document is unchanged).
 
 ## How to run
 
