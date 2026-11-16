@@ -148,4 +148,4 @@ Across 2019–2021, the original portfolio showed positive average monthly perfo
 
 **Recommendation:** Treat the optimized allocation as a starting point, not an investment prescription. Consider position limits, additional stress scenarios, transaction costs, and out-of-sample validation before implementation. Results are based on historical course data and may not generalize to future markets.
 
-*Data provenance: 36 monthly observations from a course-provided workbook. The raw workbook is intentionally not redistributed in this public repository.*
+*Data provenance: 36 monthly observations from a synthetic course dataset. The data are included in this repository as `data/portfolio_returns.csv`; the original Excel workbook and instructor notes are not redistributed.*
