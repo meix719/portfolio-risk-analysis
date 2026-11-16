@@ -19,10 +19,13 @@ import matplotlib.pyplot as plt
 # sheet_name tells Python which Excel worksheet to read.
 # The original Excel file is not changed.
 
-df = pd.read_excel(
-    "Risk Analytics - Class 9 - Dataset.xlsx",
-    sheet_name="Dataset"
-)
+# Path(__file__) points to the folder containing this Python script.
+# The synthetic dataset is included in this repository's data/ folder.
+from pathlib import Path
+
+data_file = Path(__file__).resolve().parent / "data" / "portfolio_returns.csv"
+
+df = pd.read_csv(data_file, parse_dates=["Month"])
 
 
 # STEP 3: EXPLORE THE DATASET
